@@ -5,7 +5,7 @@ This study looked at the challenge of producing
 accurate answers to range queries on two-dimensional geospatial
 data sets while still preserving the privacy of the data set
 participants. For verification purposes, the relative errors produced in answering these range queries were compared to those obtained from Zhang et
-al. (2016) [1] using the same algorithms on the same data sets.
+al. (2016) using the same algorithms on the same data sets.
 
 ## Interactive Web-App
 
@@ -14,49 +14,22 @@ different algorithms spatially decompose 2D geospatial data
 to answer range queries that satisfy differential privacy.
 
 ## Details of Study 
-Read full paper [here](http://google.com)
+Read full paper [here](https://github.com/ruankie/differentially-private-range-queries/blob/main/paper.pdf).
 
-### 1. Introduction
-Data sets that contain the geographic location of individuals
-or their activities can be used to enhance business intelligence
-and traffic flow. They can also be used in the process of
-determining the location and layout of transport systems,
-political boundaries, and facilities [2], [3].
+The paper contains detailed definitions of differential privacy and
+range queries as well as details of all algorithms used, methods
+followed, and the results that were obtained.
 
-The information contained in such data sets are clearly
-valuable to researchers. However, publishing data sets like
-these can pose a threat to the privacy of the individuals
-whose data is contained within them. This study looked at the challenge of publishing geospatial data that can be
-used to accurately answer queries for research purposes while
-protecting the privacy of the individuals who participated in
-the data sets.
-
-More specifically, this study was concerned with producing
-accurate answers to query type known as a range query. A
-range query is a type of query that returns the amount of data
-points contained within a specific region. Range queries have
-particular importance when dealing with geospatial data [2].
-
-To address the challenge of preserving both privacy and
-data utility, the paradigm of differential privacy can be used.
-Differential privacy is a strong privacy guarantee that ensures
-the answer to a query has very little difference when applied
-to a data set that differs by the participation of any one
-individual. This guarantees that no additional information
-about an individual can be revealed by their participation in
-the data set.
-
-In this study, three differentially private algorithms for answering
-range queries are considered and compared. These
-are the *Uniform Grid (UG)*, *Simple QuadTree*, and *PrivTree* algorithms as
-described in Zhang et al. (2016) [1] and Qardaji et al. (2013) [3]. These algorithms use different spatial
-decomposition methods to divide the input data space into
-smaller sub-regions before computing a noisy count of data
-points contained within each sub-region.
-
-### 2. Differential Privacy
-Differential privacy (DP), on an intuitive
-level, is a strong privacy guarantee that ensures the answer
-to a query has very little difference when applied to a data set
-that differs by the participation of any one individual. A more
-formal definition is given next.
+## References
+* *Data Sets:* 
+        * [Beijing Taxi Data Set](http://snap.stanford.edu/data/loc-gowalla.html)
+        * [Gowalla Data Set](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/?from=http%3A%2F%2Fresearch.microsoft.com%2Fapps%2Fpubs%2F%3Fid%3D152883)
+    * *Algorithms:*
+        * J. Zhang, X. Xiaokui, and X. Xing, ''Privtree: A differentially private algorithm for hierarchical decompositions,''
+        In Proceedings of the 2016 International Conference on Management of Data, 2016, pp. 155-170.
+        * W. Qardaji, W. Yang and N. Li, ''Differentially private grids for geospatial data,'' 
+        2013 IEEE 29th International Conference on Data Engineering (ICDE), Brisbane, QLD, 2013, pp. 757-768, doi: 10.1109/ICDE.2013.6544872.
+        * G. Cormode, C. Procopiuc, D. Srivastava, E. Shen and T. Yu, ''Differentially
+		Private Spatial Decompositions,'' 2012 IEEE 28th International
+		Conference on Data Engineering, Washington, DC, 2012, pp. 20-31, doi:
+		10.1109/ICDE.2012.16.

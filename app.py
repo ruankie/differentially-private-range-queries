@@ -582,5 +582,7 @@ st.markdown('''
         * J. Zhang, X. Xiaokui, and X. Xing, ``Privtree: A differentially private algorithm for hierarchical decompositions,''
         In Proceedings of the 2016 International Conference on Management of Data, 2016, pp. 155-170.
         * W. Qardaji, W. Yang and N. Li, ``Differentially private grids for geospatial data,'' 
-        2013 IEEE 29th International Conference on Data Engineering (ICDE), Brisbane, QLD, 2013, pp. 757-768, doi: 10.1109/ICDE.2013.6544872.''')
+        2013 IEEE 29th International Conference on Data Engineering (ICDE), Brisbane, QLD, 2013, pp. 757-768, doi: 10.1109/ICDE.2013.6544872.
+        * G. Cormode, C. Procopiuc, D. Srivastava, E. Shen and T. Yu, ``Differentially Private Spatial Decompositions,'' 
+        2012 IEEE 28th International Conference on Data Engineering, Washington, DC, 2012, pp. 20-31, doi: 10.1109/ICDE.2012.16.''')
 

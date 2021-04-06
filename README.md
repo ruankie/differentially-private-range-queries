@@ -9,7 +9,7 @@ al. (2016) using the same algorithms on the same data sets.
 
 ## Interactive Web-App
 
-Use the [interactive web-app](http://google.com) to see how 
+Use the [interactive web-app](https://private-range-queries.herokuapp.com/) to see how 
 different algorithms spatially decompose 2D geospatial data
 to answer range queries that satisfy differential privacy.
 

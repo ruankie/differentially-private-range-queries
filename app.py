@@ -554,15 +554,15 @@ st.markdown('## Algorithm Pseudo Code')
 show_pseudo = st.checkbox('Show algorithm pseudo code', value=True)
 if show_pseudo:
     if algo == 'Uniform Grid':
-        alg_img = Image.open('figures/ug_alg.png')
+        alg_img = Image.open('figures/ug_alg.PNG')
         st.image(alg_img)
 
     elif algo == 'Simple QuadTree':
-        alg_img = Image.open('figures/simple_tree_alg.png')
+        alg_img = Image.open('figures/simple_tree_alg.PNG')
         st.image(alg_img)
 
     elif algo == 'PrivTree':
-        alg_img = Image.open('figures/privtree_alg.png')
+        alg_img = Image.open('figures/privtree_alg.PNG')
         st.image(alg_img)
 
 

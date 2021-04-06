@@ -398,7 +398,7 @@ logo = Image.open('figures/logo3.png')
 st.image(logo, use_column_width=True)
 
 ## display link to paper
-st.markdown('*Read full paper [here](http://google.com)*')
+st.markdown('*Read full paper [here](https://github.com/ruankie/differentially-private-range-queries/blob/main/paper.pdf)*')
 st.markdown('***')
 
 ## sidebar

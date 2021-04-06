@@ -388,7 +388,7 @@ def get_range_count(q_dom, data_x, data_y, tree_out_doms, tree_noisy_counts, tre
 ####################
 
 ## page config
-st.set_page_config(page_title='Spacial Decomposition', 
+st.set_page_config(page_title='Private Range Queries', 
 					page_icon=':round_pushpin:', # :pushpin:  :earth_africa:   :world_map:
 					layout='wide', # "centered" or "wide"
 					initial_sidebar_state='expanded') # "auto" or "expanded" or "collapsed"

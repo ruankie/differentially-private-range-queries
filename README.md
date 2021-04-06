@@ -22,8 +22,8 @@ followed, and the results that were obtained.
 
 ## References
 * *Data Sets:* 
-        * [Beijing Taxi Data Set](http://snap.stanford.edu/data/loc-gowalla.html)
-        * [Gowalla Data Set](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/?from=http%3A%2F%2Fresearch.microsoft.com%2Fapps%2Fpubs%2F%3Fid%3D152883)
+    * [Beijing Taxi Data Set](http://snap.stanford.edu/data/loc-gowalla.html)
+    * [Gowalla Data Set](https://www.microsoft.com/en-us/research/publication/t-drive-trajectory-data-sample/?from=http%3A%2F%2Fresearch.microsoft.com%2Fapps%2Fpubs%2F%3Fid%3D152883)
 * *Algorithms:*
     * J. Zhang, X. Xiaokui, and X. Xing, ''Privtree: A differentially private algorithm for hierarchical decompositions,''
     In Proceedings of the 2016 International Conference on Management of Data, 2016, pp. 155-170.
